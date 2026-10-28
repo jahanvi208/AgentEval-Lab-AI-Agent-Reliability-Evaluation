@@ -1,0 +1,125 @@
+{
+  "baseline": {
+    "tasks": 45,
+    "success_rate": 0.06666666666666667,
+    "success_95ci": [
+      0.0229,
+      0.1786
+    ],
+    "answer_accuracy": 0.06666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.1935483870967742,
+    "protocol_errors": 25,
+    "mean_seconds": 9.723810708199967,
+    "p95_seconds": 17.38897960500026,
+    "mean_generated_tokens": 38.577777777777776,
+    "failures": {
+      "no_final": 31,
+      "wrong_answer": 11
+    },
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 0
+      },
+      "injection": {
+        "n": 9,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 0
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 0
+      }
+    }
+  },
+  "feedback": {
+    "tasks": 45,
+    "success_rate": 0.17777777777777778,
+    "success_95ci": [
+      0.0929,
+      0.3133
+    ],
+    "answer_accuracy": 0.17777777777777778,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.08771929824561403,
+    "protocol_errors": 54,
+    "mean_seconds": 24.198376891555544,
+    "p95_seconds": 60.38188281800012,
+    "mean_generated_tokens": 73.37777777777778,
+    "failures": {
+      "no_final": 13,
+      "wrong_answer": 24
+    },
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 8
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 0
+      },
+      "injection": {
+        "n": 9,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 0
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 0
+      }
+    }
+  },
+  "structured": {
+    "tasks": 45,
+    "success_rate": 0.06666666666666667,
+    "success_95ci": [
+      0.0229,
+      0.1786
+    ],
+    "answer_accuracy": 0.06666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.16129032258064516,
+    "protocol_errors": 26,
+    "mean_seconds": 10.893276307422244,
+    "p95_seconds": 19.019572945000164,
+    "mean_generated_tokens": 39.24444444444445,
+    "failures": {
+      "no_final": 31,
+      "wrong_answer": 11
+    },
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 0
+      },
+      "injection": {
+        "n": 9,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 0
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "constrained": {
+    "tasks": 15,
+    "success_rate": 0.8,
+    "success_95ci": [
+      0.5481,
+      0.9295
+    ],
+    "answer_accuracy": 0.8,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.2,
+    "protocol_errors": 0,
+    "mean_seconds": 26.947595302533593,
+    "p95_seconds": 31.37137895000069,
+    "mean_generated_tokens": 35.06666666666667,
+    "failures": {
+      "wrong_answer": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 3
+      },
+      "injection": {
+        "n": 3,
+        "successes": 3
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  },
+  "plain": {
+    "tasks": 15,
+    "success_rate": 0.6,
+    "success_95ci": [
+      0.3575,
+      0.8018
+    ],
+    "answer_accuracy": 0.6,
+    "policy_compliance": 0.8,
+    "invalid_tool_call_rate": 0.5,
+    "protocol_errors": 0,
+    "mean_seconds": 27.076482356733504,
+    "p95_seconds": 32.74244886300039,
+    "mean_generated_tokens": 37.266666666666666,
+    "failures": {
+      "wrong_answer": 3,
+      "no_final": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 3
+      },
+      "injection": {
+        "n": 3,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  },
+  "recovery": {
+    "tasks": 15,
+    "success_rate": 0.8,
+    "success_95ci": [
+      0.5481,
+      0.9295
+    ],
+    "answer_accuracy": 0.8,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.2,
+    "protocol_errors": 0,
+    "mean_seconds": 26.83589188933323,
+    "p95_seconds": 30.060360942999978,
+    "mean_generated_tokens": 35.06666666666667,
+    "failures": {
+      "wrong_answer": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 3
+      },
+      "injection": {
+        "n": 3,
+        "successes": 3
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # AgentEval Lab — AI Agent Reliability Evaluation
 
-## Latest completed experiment (v3)
+## Controlled evaluation results
 
 Evaluates agent failures through controlled experiments with two local language models and three execution policies: plain plans, schema-constrained plans, and constrained plans with error recovery. Includes executable Python code, a Streamlit dashboard, raw model traces, tests, and experiment reports.
 
@@ -13,7 +13,7 @@ Evaluates agent failures through controlled experiments with two local language 
 
 All policies share caps of two generations, 256 tokens per generation, and three host tool calls. Schema constraints improved observed success; recovery added no successes in this sample. All three multi-step test tasks still failed for the larger model. These are small synthetic, in-domain experiments, not evidence of production reliability or statistical significance.
 
-Read [v3 results](V3_RESULTS.md), [frozen protocol](V3_PREREGISTRATION.md), and [validation](VALIDATION.md). Historical studies below use different datasets and should not be compared directly with v3 scores.
+Read [experiment results](EXPERIMENT_RESULTS.md), [frozen protocol](EXPERIMENT_PROTOCOL.md), and [validation](VALIDATION.md). Historical studies below use different datasets and should not be compared directly with the scores above.
 
 ### Open the dashboard without downloading models
 
@@ -24,7 +24,7 @@ python -m pip install "streamlit>=1.50,<2"
 python -m streamlit run app.py
 ```
 
-The dashboard displays the included completed results. To test the software, run `python -m unittest discover -s tests -v` (18 tests; no model download required). To reproduce or resume v3, install `requirements.txt` and run `python run_study3.py`; completed trials are skipped. See [the v3 notebook](AgentEval_v3_Colab.ipynb) for its workflow and the CPU requirements below.
+The dashboard displays the included completed results. To test the software, run `python -m unittest discover -s tests -v` (18 tests; no model download required). To reproduce or resume the model comparison, install `requirements.txt` and run `python run_study3.py`; completed trials are skipped. See [the experiment notebook](AgentEval_Experiments_Colab.ipynb) for its workflow and the CPU requirements below.
 
 ## Original study and implementation
 
@@ -130,6 +130,6 @@ This launches the results viewer. To generate a run inside a container: `docker 
 We use the model's ordinary chat template and an explicit JSON protocol. This is an original small engineering benchmark, not a reproduction of a published paper. No LoRA, RLHF, distillation, retrieval system or accelerator optimization is implemented.
 
 
-## CPU setup for the v3 study
+## CPU setup for the model comparison
 
-Both models use CPU float32 inference in the frozen v3 runner. The 1.5B model alone needs roughly 6 GB for weights, plus runtime overhead; leave sufficient free RAM. For a CPU-only PyTorch installation, install `torch` from https://download.pytorch.org/whl/cpu before installing requirements.txt. Initial runs download model weights; no API key is needed. Use AgentEval_v3_Colab.ipynb for a notebook workflow. GPU execution is available in the older CLI, but was not added to or tested in the frozen v3 runner.
+Both models use CPU float32 inference in the frozen experiment runner. The 1.5B model alone needs roughly 6 GB for weights, plus runtime overhead; leave sufficient free RAM. For a CPU-only PyTorch installation, install `torch` from https://download.pytorch.org/whl/cpu before installing requirements.txt. Initial runs download model weights; no API key is needed. Use the [experiment notebook](AgentEval_Experiments_Colab.ipynb) for a notebook workflow. GPU execution is available in the older CLI, but was not added to or tested in the frozen experiment runner.

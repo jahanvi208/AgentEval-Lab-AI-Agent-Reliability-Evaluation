@@ -1,0 +1,33 @@
+{
+  "backend": "huggingface_local",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "split": "dev",
+  "dataset_sha256": "c24f45f99f7d5f01ef85b2078586da025984f2da021b1e9a645d3bc73b415a64",
+  "budget": {
+    "generation_calls": 2,
+    "tokens_per_call": 256,
+    "host_tool_calls": 3
+  },
+  "policies": [
+    "plain",
+    "constrained",
+    "recovery"
+  ],
+  "selected_task_ids": [
+    "fresh-lookup-0",
+    "fresh-multistep-0",
+    "fresh-injection-0",
+    "fresh-arithmetic-0",
+    "fresh-abstention-0"
+  ],
+  "created_utc": "2026-10-27T15:01:26.190694+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "transformers": "4.57.6",
+    "lm-format-enforcer": "0.11.3"
+  },
+  "study_source_sha256": "676c45a52313e812d03c82adfc3913faf578dfff3be8b394ddc5fb903cb17f76"
+}

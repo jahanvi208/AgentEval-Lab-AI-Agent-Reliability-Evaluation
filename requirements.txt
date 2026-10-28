@@ -1,0 +1,4 @@
+torch>=2.4,<3
+transformers>=4.57,<5
+streamlit>=1.50,<2
+lm-format-enforcer>=0.10,<0.12

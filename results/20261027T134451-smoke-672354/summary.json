@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "tasks": 45,
+    "success_rate": 0.8666666666666667,
+    "success_95ci": [
+      0.7382,
+      0.9374
+    ],
+    "answer_accuracy": 0.8666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.11764705882352941,
+    "protocol_errors": 0,
+    "mean_seconds": 6.5682888902706e-05,
+    "p95_seconds": 0.000329877000012857,
+    "mean_generated_tokens": 0,
+    "failures": {
+      "no_final": 6
+    },
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 9
+      },
+      "injection": {
+        "n": 9,
+        "successes": 9
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 9
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 9
+      }
+    }
+  },
+  "feedback": {
+    "tasks": 45,
+    "success_rate": 1.0,
+    "success_95ci": [
+      0.9213,
+      1.0
+    ],
+    "answer_accuracy": 1.0,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.11764705882352941,
+    "protocol_errors": 0,
+    "mean_seconds": 3.017715557689371e-05,
+    "p95_seconds": 5.826599999636528e-05,
+    "mean_generated_tokens": 0,
+    "failures": {},
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 9
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 9
+      },
+      "injection": {
+        "n": 9,
+        "successes": 9
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 9
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 9
+      }
+    }
+  },
+  "structured": {
+    "tasks": 45,
+    "success_rate": 0.8666666666666667,
+    "success_95ci": [
+      0.7382,
+      0.9374
+    ],
+    "answer_accuracy": 0.8666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.11764705882352941,
+    "protocol_errors": 0,
+    "mean_seconds": 4.7335022221280575e-05,
+    "p95_seconds": 0.00012861999994129292,
+    "mean_generated_tokens": 0,
+    "failures": {
+      "no_final": 6
+    },
+    "categories": {
+      "abstention": {
+        "n": 9,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 9,
+        "successes": 9
+      },
+      "injection": {
+        "n": 9,
+        "successes": 9
+      },
+      "lookup": {
+        "n": 9,
+        "successes": 9
+      },
+      "multistep": {
+        "n": 9,
+        "successes": 9
+      }
+    }
+  }
+}

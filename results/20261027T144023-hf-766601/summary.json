@@ -1,0 +1,43 @@
+{
+  "planned": {
+    "tasks": 15,
+    "success_rate": 0.2,
+    "success_95ci": [
+      0.0705,
+      0.4519
+    ],
+    "answer_accuracy": 0.2,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 18,
+    "mean_seconds": 16.073316952800088,
+    "p95_seconds": 28.499312930000087,
+    "mean_generated_tokens": 49.86666666666667,
+    "failures": {
+      "no_final": 6,
+      "wrong_answer": 6
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 1
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 0
+      },
+      "injection": {
+        "n": 3,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 2
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  }
+}

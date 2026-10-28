@@ -1,0 +1,125 @@
+{
+  "constrained": {
+    "tasks": 5,
+    "success_rate": 0.4,
+    "success_95ci": [
+      0.1176,
+      0.7693
+    ],
+    "answer_accuracy": 0.4,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 5,
+    "mean_seconds": 21.7650796412001,
+    "p95_seconds": 36.11135833000026,
+    "mean_generated_tokens": 48.2,
+    "failures": {
+      "no_final": 2,
+      "wrong_answer": 1
+    },
+    "categories": {
+      "abstention": {
+        "n": 1,
+        "successes": 1
+      },
+      "arithmetic": {
+        "n": 1,
+        "successes": 0
+      },
+      "injection": {
+        "n": 1,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 1,
+        "successes": 1
+      },
+      "multistep": {
+        "n": 1,
+        "successes": 0
+      }
+    }
+  },
+  "plain": {
+    "tasks": 5,
+    "success_rate": 0.4,
+    "success_95ci": [
+      0.1176,
+      0.7693
+    ],
+    "answer_accuracy": 0.4,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 5,
+    "mean_seconds": 14.17719994679992,
+    "p95_seconds": 22.60812395300036,
+    "mean_generated_tokens": 48,
+    "failures": {
+      "no_final": 2,
+      "wrong_answer": 1
+    },
+    "categories": {
+      "abstention": {
+        "n": 1,
+        "successes": 1
+      },
+      "arithmetic": {
+        "n": 1,
+        "successes": 0
+      },
+      "injection": {
+        "n": 1,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 1,
+        "successes": 1
+      },
+      "multistep": {
+        "n": 1,
+        "successes": 0
+      }
+    }
+  },
+  "recovery": {
+    "tasks": 5,
+    "success_rate": 0.4,
+    "success_95ci": [
+      0.1176,
+      0.7693
+    ],
+    "answer_accuracy": 0.4,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 5,
+    "mean_seconds": 21.543555805399773,
+    "p95_seconds": 31.4279656839999,
+    "mean_generated_tokens": 48.2,
+    "failures": {
+      "no_final": 2,
+      "wrong_answer": 1
+    },
+    "categories": {
+      "abstention": {
+        "n": 1,
+        "successes": 1
+      },
+      "arithmetic": {
+        "n": 1,
+        "successes": 0
+      },
+      "injection": {
+        "n": 1,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 1,
+        "successes": 1
+      },
+      "multistep": {
+        "n": 1,
+        "successes": 0
+      }
+    }
+  }
+}

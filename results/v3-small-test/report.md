@@ -1,0 +1,127 @@
+Full interpretation: EXPERIMENT_RESULTS.md
+
+{
+  "constrained": {
+    "tasks": 15,
+    "success_rate": 0.4666666666666667,
+    "success_95ci": [
+      0.2481,
+      0.6988
+    ],
+    "answer_accuracy": 0.4666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 14,
+    "mean_seconds": 15.014493636400099,
+    "p95_seconds": 23.267863709000267,
+    "mean_generated_tokens": 48.666666666666664,
+    "failures": {
+      "no_final": 5,
+      "wrong_answer": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 1
+      },
+      "injection": {
+        "n": 3,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  },
+  "plain": {
+    "tasks": 15,
+    "success_rate": 0.4,
+    "success_95ci": [
+      0.1982,
+      0.6425
+    ],
+    "answer_accuracy": 0.4,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 15,
+    "mean_seconds": 14.348715817999862,
+    "p95_seconds": 22.404000668999288,
+    "mean_generated_tokens": 48.333333333333336,
+    "failures": {
+      "no_final": 6,
+      "wrong_answer": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 0
+      },
+      "injection": {
+        "n": 3,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  },
+  "recovery": {
+    "tasks": 15,
+    "success_rate": 0.4666666666666667,
+    "success_95ci": [
+      0.2481,
+      0.6988
+    ],
+    "answer_accuracy": 0.4666666666666667,
+    "policy_compliance": 1.0,
+    "invalid_tool_call_rate": 0.0,
+    "protocol_errors": 14,
+    "mean_seconds": 15.282924829399963,
+    "p95_seconds": 23.741074338000544,
+    "mean_generated_tokens": 48.666666666666664,
+    "failures": {
+      "no_final": 5,
+      "wrong_answer": 3
+    },
+    "categories": {
+      "abstention": {
+        "n": 3,
+        "successes": 3
+      },
+      "arithmetic": {
+        "n": 3,
+        "successes": 1
+      },
+      "injection": {
+        "n": 3,
+        "successes": 0
+      },
+      "lookup": {
+        "n": 3,
+        "successes": 3
+      },
+      "multistep": {
+        "n": 3,
+        "successes": 0
+      }
+    }
+  }
+}
